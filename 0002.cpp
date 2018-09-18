@@ -1,28 +1,12 @@
-#include <iostream>
-#include <cstring>
-#include <cstdio>
-#include <cstdlib>
-#include <cctype>
-#include <cmath>
-#include <string>
-#include <vector>
-#include <list>
-#include <map>
-#include <queue>
-#include <stack>
-#include <set>
-#include <algorithm>
-#include <sstream>
-#include <unordered_set>
-#include <unordered_map>
-using namespace std;
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 
-
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
 
 class Solution {
 public:
